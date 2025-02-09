@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="offer">
+        <p>SignUp and </p>
+        <p class="font-bold">GET 20% OFF</p>
+        <p>on your first order</p>
+        <p id="close" class="cursor-pointer">X</p>
+    </div>
+    <nav class="navbar shadow-md">
+        <div class="navbar__s1">
+            <h2 class="font-extrabold text-xl">Nostra</h2>
+        </div>
+        <button class="menu-btn" onclick="toggleSidebar()">☰</button>
+        <div class="navbar__s2">
+            <a href="index.html">Home</a>
+            <a href="index.html#new_arrivals">New Arrivals</a>
+            <a href="index.html#most_wanted_section">Most Wanted</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <button class="close-btn" onclick="toggleSidebar()">X</button>
+            <a href="index.html">Home</a>
+            <a href="index.html#new_arrivals">New Arrivals</a>
+            <a href="index.html#most_wanted_section">Most Wanted</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <section class="split_container">
+        <div class="split_container_left">
+            <h1 class="mb-2">Occasion</h1>
+            <input type="checkbox" id="summer">
+            <label for="summer">Summer</label><br>
+            <input type="checkbox" id="party">
+            <label for="party">Party</label><br>
+            <input type="checkbox" id="beach">
+            <label for="beach">Beach</label><br>
+            <h1 class="mb-2">Colors</h1>
+            <input type="checkbox" id="red">
+            <label for="red">Red</label><br>
+            <input type="checkbox" id="blue">
+            <label for="blue">Blue</label><br>
+            <input type="checkbox" id="white">
+            <label for="white">White</label><br>
+            <input type="checkbox" id="green">
+            <label for="green">Green</label><br>
+
+        </div>
+
+        <div class="split_container_right">
+            <div class="searchbar">
+                <input type="text" placeholder="Search">
+                <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+            </div>
+            <div class="collections_list">
+
+                <div><img src="./images/image10.jpg" alt="image10">
+                    <p class="cloth_name">Green shirt</p>
+                    <p class="cloth_price">&#8377 330</p>
+                </div>
+                <div><img src="./images/image11.jpg" alt="image11">
+                    <p class="cloth_name">Trouser Black</p>
+                    <p class="cloth_price">&#8377 330</p>
+                </div>
+                <div><img src="./images/image12.jpg" alt="image12">
+                    <p class="cloth_name">Pink shirt</p>
+                    <p class="cloth_price">&#8377 330</p>
+                </div>
+                <div><img src="./images/image13.jpg" alt="image13">
+                    <p class="cloth_name">Trouser Grey</p>
+                    <p class="cloth_price">&#8377 330</p>
+                </div>
+                <div><img src="./images/image14.jpg" alt="image14">
+                    <p class="cloth_name">Trouser Blue</p>
+                    <p class="cloth_price">&#8377 330</p>
+                </div>
+                <div><img src="./images/image15.jpg" alt="image15">
+                    <p class="cloth_name">Trouser Cream</p>
+                    <p class="cloth_price">&#8377 330</p>
+                </div>
+                <div><img src="./images/image16.jpg" alt="image16">
+                    <p class="cloth_name">Green shirt</p>
+                    <p class="cloth_price">&#8377 330</p>
+                </div>
+                <div><img src="./images/image17.jpg" alt="image17">
+                    <p class="cloth_name">Blue shirt</p>
+                    <p class="cloth_price">&#8377 330</p>
+                </div>
+                <div><img src="./images/image11.jpg" alt="image11">
+                    <p class="cloth_name">Trouser Black</p>
+                    <p class="cloth_price">&#8377 330</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <p class="newsletter_head">Join our Newsletter</p>
+        <p class="newsletter_body">SignUp for our email newspaper to get exclusive discounts, updates and more</p>
+        <input type="email"><br>
+        <button class="mt-2 p-2 border-transparent text-white text-center rounded">Subscribe 🡲</button>
+    </section>
+
+    <footer class="footer">
+        <h1 class="text-2xl font-bold">Nostra</h1>
+        <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium mol</p>
+        <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-instagram my-3" style="color: #ffffff;"></i>
+        <p>&copy; 2025 Nostra.com</p>
+    </footer>
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body id="navbar_scroll">
+    <div class="offer">
+        <p>SignUp and </p>
+        <p class="font-bold">GET 20% OFF</p>
+        <p>on your first order</p>
+        <p id="close" class="cursor-pointer">X</p>
+    </div>
+    <nav class="navbar shadow-md">
+        <div class="navbar__s1">
+            <h2 class="font-extrabold text-xl">Nostra</h2>
+        </div>
+        <button class="menu-btn" onclick="toggleSidebar()">☰</button>
+        <div class="navbar__s2">
+            <a href="#navbar_scroll">Home</a>
+            <a href="#new_arrivals">New Arrivals</a>
+            <a href="#most_wanted_section">Most Wanted</a>
+            <a href="collections.html">Collections</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <button class="close-btn" onclick="toggleSidebar()">X</button>
+            <a href="#navbar_scroll">Home</a>
+            <a href="#new_arrivals">New Arrivals</a>
+            <a href="#most_wanted_section">Most Wanted</a>
+            <a href="collections.html">Collections</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <section class="slider">
+        <div class="slider-container">
+            <img src="./images/image1.jpg" alt="Image" loading="lazy">
+            <img src="./images/image2.jpg" alt="Image 2" loading="lazy">
+            <img src="./images/image3.jpg" alt="Image 3" loading="lazy">
+            <img src="./images/image4.jpg" alt="Image 4" loading="lazy">
+            <img src="./images/image5.jpg" alt="Image 5" loading="lazy">
+            <img src="./images/image1.jpg" alt="Image 5" loading="lazy">
+        </div>
+        <div class="tint"></div> <!-- Tinted overlay -->
+        <div class="overlay">
+            <h1 class="font-extrabold text-6xl">Level up your style with our</h1>
+            <p class="font-bold pt-2">Summer collections</p>
+            <button class="mt-2 p-2 border-transparent bg-white text-black text-center rounded">Shop now 🡲</button>
+            <button class="arrow left">&#10094;</button>
+            <button class="arrow right">&#10095;</button>
+        </div>
+    </section>
+
+    <section class="m-2">
+        <h1 class="heading">Brands</h1><br>
+        <div class="flex justify-between items-center m-2 text-center">
+            <div>
+                <svg role="img" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <title>Puma</title>
+                    <path
+                        d="M23.845 3.008c-.417-.533-1.146-.106-1.467.08-2.284 1.346-2.621 3.716-3.417 5.077-.626 1.09-1.652 1.89-2.58 1.952-.686.049-1.43-.084-2.168-.405-1.807-.781-2.78-1.792-3.017-1.97-.487-.37-4.23-4.015-7.28-4.164 0 0-.372-.75-.465-.763-.222-.025-.45.451-.616.501-.15.053-.413-.512-.565-.487-.153.02-.302.586-.6.877-.22.213-.486.2-.637.463-.052.096-.034.265-.093.42-.127.32-.551.354-.555.697 0 .381.357.454.669.72.248.212.265.362.554.461.258.088.632-.187.964-.088.277.081.543.14.602.423.054.256 0 .658-.34.613-.112-.015-.598-.174-1.198-.11-.725.077-1.553.309-1.634 1.11-.041.447.514.97 1.055.866.371-.071.196-.506.399-.716.267-.27 1.772.944 3.172.944.593 0 1.031-.15 1.467-.605.04-.029.093-.102.155-.11a.632.632 0 01.195.088c1.131.897 1.984 2.7 6.13 2.721.582.007 1.25.279 1.796.777.48.433.764 1.125 1.037 1.825.418 1.053 1.161 2.069 2.292 3.203.06.068.99.78 1.06.833.012.01.084.167.053.255-.02.69-.123 2.67 1.365 2.753.366.02.275-.231.275-.41-.005-.341-.065-.685.113-1.04.253-.478-.526-.709-.509-1.756.019-.784-.645-.651-.984-1.25-.19-.343-.368-.532-.35-.946.073-2.38-.517-3.948-.805-4.327-.227-.294-.423-.403-.207-.54 1.24-.815 1.525-1.574 1.525-1.574.66-1.541 1.256-2.945 2.075-3.57.166-.12.589-.44.852-.56.763-.362 1.173-.578 1.388-.788.356-.337.635-1.053.294-1.48z" />
+                </svg>
+                <p>Puma</p>
+            </div>
+            <div>
+                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>Adidas</title>
+                    <path
+                        d="m24 19.535-8.697-15.07-4.659 2.687 7.145 12.383Zm-8.287 0L9.969 9.59 5.31 12.277l4.192 7.258ZM4.658 14.723l2.776 4.812H1.223L0 17.41Z" />
+                </svg>
+                <p>Adidas</p>
+            </div>
+            <div>
+                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title>Simplenote</title>
+                    <path
+                        d="M3.466 3.62c-.004.052-.014.104-.018.158-.406 4.626 2.747 8.548 8.03 9.994 2.024.553 5.374 2.018 5.06 5.599a5.063 5.063 0 0 1-1.803 3.46c-1.022.857-2.308 1.21-3.64 1.166C5.147 23.794 0 18.367 0 12.05c0-3.285 1.325-6.262 3.467-8.428zM9.82 1.032c.907-.762 2.056-1.078 3.235-1.027C18.996.27 24 5.67 24 11.936c0 2.855-1.001 5.478-2.667 7.536.332-4.908-2.94-8.897-8.59-10.441-2.337-.64-4.749-2.274-4.514-4.948A4.467 4.467 0 0 1 9.82 1.03z" />
+                </svg>
+                <p>Simple</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-pagelines" style="color: #000000; font-size: 290%;"></i>
+                <p>Leaves</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-behance" style="color: #000000; font-size: 290%;"></i>
+                <p>Behance</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-twitch" style="color: #000000; font-size: 290%;"></i>
+                <p>Twitch</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-pagelines" style="color: #000000; font-size: 290%;"></i>
+                <p>Leaves</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="customer_experiences">
+        <h1 class="customer_experiences__head">We Provide Best Customer Experiences</h1>
+        <p>|| We ensure that our customer have the best shopping experience</p>
+    </section>
+
+    <section class="customer_facilities">
+        <div>
+            <i class="fa-regular fa-circle-check" style="color: #000000;"></i>
+            <p class="customer_facilities__head">Original products</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint cum sed animi a</p>
+        </div>
+        <div>
+            <i class="fa-regular fa-face-smile-beam" style="color: #000000;"></i>
+            <p class="customer_facilities__head">Satisfaction Guarantee</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint cum sed animi a</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-broom" style="color: #000000;"></i>
+            <p class="customer_facilities__head">New Arraival Everyday</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint cum sed animi a</p>
+        </div>
+        <div>
+            <i class="fa-solid fa-truck-fast" style="color: #000000;"></i>
+            <p class="customer_facilities__head">Fast & Free Shipping</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint cum sed animi a</p>
+        </div>
+    </section>
+
+    <section>
+        <h1 class="new_arrivals_head" id="new_arrivals">New Arrivals</h1>
+        <div class="new_arrivals">
+            <div>
+                <img src="./images/image6.jpg" alt="image6" loading="lazy">
+                <button class="mt-2 p-2 border-transparent bg-white text-black text-center rounded">Shop now 🡲</button>
+            </div>
+            <div>
+                <img src="./images/image7.jpg" alt="image7" loading="lazy">
+                <button class="mt-2 p-2 border-transparent bg-white text-black text-center rounded">Shop now 🡲</button>
+            </div>
+            <div>
+                <img src="./images/image8.jpg" alt="image8" loading="lazy">
+                <button class="mt-2 p-2 border-transparent bg-white text-black text-center rounded">Shop now 🡲</button>
+            </div>
+            <div>
+                <img src="./images/image9.jpg" alt="image9" loading="lazy">
+                <button class="mt-2 p-2 border-transparent bg-white text-black text-center rounded">Shop now 🡲</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="most_wanted_section" id="most_wanted_section">
+        <h1 class="most_wanted_head">Most Wanted</h1>
+        <div class="most_wanted">
+            <div>
+                <p>sale</p><img src="./images/image10.jpg" alt=""><i class="fa-regular fa-heart"
+                    style="color: #000000;"></i>
+            </div>
+            <div>
+                <p>sale</p><img src="./images/image11.jpg" alt=""><i class="fa-regular fa-heart"
+                    style="color: #000000;"></i>
+            </div>
+            <div>
+                <p>sale</p><img src="./images/image12.jpg" alt=""><i class="fa-regular fa-heart"
+                    style="color: #000000;"></i>
+            </div>
+            <div>
+                <p>sale</p><img src="./images/image13.jpg" alt=""><i class="fa-regular fa-heart"
+                    style="color: #000000;"></i>
+            </div>
+            <div>
+                <p>sale</p><img src="./images/image14.jpg" alt=""><i class="fa-regular fa-heart"
+                    style="color: #000000;"></i>
+            </div>
+            <div>
+                <p>sale</p><img src="./images/image15.jpg" alt=""><i class="fa-regular fa-heart"
+                    style="color: #000000;"></i>
+            </div>
+            <div>
+                <p>sale</p><img src="./images/image16.jpg" alt=""><i class="fa-regular fa-heart"
+                    style="color: #000000;"></i>
+            </div>
+            <div>
+                <p>sale</p><img src="./images/image17.jpg" alt=""><i class="fa-regular fa-heart"
+                    style="color: #000000;"></i>
+            </div>
+            <div>
+                <p>sale</p><img src="./images/image14.jpg" alt=""><i class="fa-regular fa-heart"
+                    style="color: #000000;"></i>
+            </div>
+            <div>
+                <p>sale</p><img src="./images/image12.jpg" alt=""><i class="fa-regular fa-heart"
+                    style="color: #000000;"></i>
+            </div>
+        </div>
+    </section>
+
+    <section class="offer_banner">
+        <div><img src="./images/image18.jpg" alt=""></div>
+        <div>
+            <h1>Limited Offer</h1>
+            <p>35% OFF on this for the first 30 customers</p>
+            <button class="mt-2 p-2 border-transparent bg-white text-black text-center rounded">Shop now 🡲</button>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <p class="newsletter_head">Join our Newsletter</p>
+        <p class="newsletter_body">SignUp for our email newspaper to get exclusive discounts, updates and more</p>
+        <input type="email"><br>
+        <button class="mt-2 p-2 border-transparent text-white text-center rounded">Subscribe 🡲</button>
+    </section>
+
+    <footer class="footer">
+        <h1 class="text-2xl font-bold">Nostra</h1>
+        <p class="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium mol</p>
+        <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-x-twitter" style="color: #ffffff;"></i>
+        <i class="fa-brands fa-instagram my-3" style="color: #ffffff;"></i>
+        <p>&copy; 2025 Nostra.com</p>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
