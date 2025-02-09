@@ -99,7 +99,6 @@ html {
     position: relative;
     width: 100%;
     height: 70vh;
-    /* 1/3 of the viewport height */
     overflow: hidden;
     margin: 10px auto;
 }
@@ -109,17 +108,13 @@ html {
     width: 100%;
     height: 100%;
     transition: transform 0.5s ease-in-out;
-    /* Smooth scrolling effect */
 }
 
 .slider-container img {
     width: calc(100% / 3);
-    /* Display 3 images at a time */
     height: 100%;
     object-fit: cover;
-    /* Ensures the image fits the height */
     flex-shrink: 0;
-    /* Prevents images from shrinking */
 }
 
 .tint {
@@ -129,8 +124,6 @@ html {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
-    /* Semi-transparent black tint */
-
 }
 
 .overlay {
@@ -227,19 +220,14 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Centers the image and button */
     position: relative;
 }
 
 .new_arrivals img {
     width: 200px;
-    /* Set a fixed width */
     height: 300px;
-    /* Set a fixed height */
     object-fit: cover;
-    /* Ensures images are cropped to fit */
     border-radius: 10px;
-    /* Optional for rounded corners */
     filter: grayscale(30%) brightness(80%);
 }
 
@@ -256,9 +244,8 @@ html {
 
 .most_wanted {
     display: flex;
-    gap: 10px; /* Adjust spacing between images */
+    gap: 10px;
     overflow-x: auto;
-    
 }
 
 .most_wanted_head{
@@ -268,11 +255,9 @@ html {
 
 .most_wanted div {
     flex:0 0 auto;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Centers the image and button */
     position: relative;
 }
 
@@ -297,9 +282,9 @@ html {
 }
 
 .most_wanted img {
-    width: 200px; /* Adjust image size */
+    width: 200px;
     height: 250px;
-    border-radius: 10px; /* Optional styling */
+    border-radius: 10px;
     filter: grayscale(30%) brightness(80%);
     z-index: 0;
 }
@@ -414,9 +399,9 @@ html {
 }
 
 .collections_list img{
-    width: 200px; /* Adjust image size */
+    width: 200px;
     height: 250px;
-    border-radius: 10px; /* Optional styling */
+    border-radius: 10px;
 
     margin-left: auto;
     margin-right: auto;
